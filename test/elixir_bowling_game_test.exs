@@ -4,6 +4,6 @@ defmodule ElixirBowlingGameTest do
 
   test "score is 0 when given a gutter game" do
     game = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    assert ElixirBowlingGame.calculateScore(game) == 0
+    assert ElixirBowlingGame.calculate_score(game) == 0
   end
 end

@@ -7,16 +7,13 @@ defmodule ElixirBowlingGame do
   Hello world.
 
   ## Examples
-
-      iex> ElixirBowlingGame.hello()
-      :world
+      iex> game = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      iex> ElixirBowlingGame.calculate_score(game)
+      0
 
   """
-  def hello do
-    :world
-  end
 
-  def calculateScore(score) do
+  def calculate_score(game) do
     0
   end
 end
